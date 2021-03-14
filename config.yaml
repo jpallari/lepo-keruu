@@ -16,8 +16,6 @@ feeds:
   url: https://medium.com/feed/@copyconstruct
 - name: Cloud Gardener
   url: https://www.cloudgardener.dev/rss.xml
-- name: Cogitations of Topi
-  url: http://kettunen.io/index.xml
 - name: Dan Luu
   url: https://danluu.com/atom.xml
 - name: The Digital Antiquarian
@@ -50,8 +48,8 @@ feeds:
   url: https://medium.com/feed/software-arguments
 - name: Stephen Thorne
   url: https://medium.com/feed/@jerub
-- name: Steve Yegge
-  url: https://medium.com/feed/@steve.yegge
+- name: Topi Kettunen
+  url: https://topikettunen.com/posts/index.xml
 - name: zwischenzugs
   url: https://zwischenzugs.com/feed/
 
@@ -64,6 +62,8 @@ feeds:
   url: https://www.gremlin.com/rss.xml
 - name: Honeycomb
   url: https://www.honeycomb.io/feed/
+- name: Tailscale
+  url: https://tailscale.com/blog/index.xml
 
 # Infrastructure/ops
 - name: High Scalability
