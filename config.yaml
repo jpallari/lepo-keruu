@@ -28,6 +28,8 @@ feeds:
   url: https://dev.to/feed/terkwood
 - name: Henrik Warne
   url: https://henrikwarne.com/feed/
+- name: Jason Scott
+  url: http://ascii.textfiles.com/feed
 - name: Jessie Frazelle
   url: https://blog.jessfraz.com/index.xml
 - name: Juho Snellman
