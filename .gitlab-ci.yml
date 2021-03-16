@@ -21,13 +21,15 @@ build-site:
   artifacts:
     paths:
     - $NETLIFY_DIRECTORY
-    expire_in: 2 days
 
-publish:
+pages:
   stage: publish
   image: registry.gitlab.com/lepovirta/netlify-deployer:ci
   script:
   - gitlab-deploy-site
+  artifacts:
+    paths:
+    - $NETLIFY_DIRECTORY
   rules:
   - if: $CI_COMMIT_BRANCH == "master"
   - if: $CI_MERGE_REQUEST_ID
