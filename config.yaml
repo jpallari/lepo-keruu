@@ -50,6 +50,8 @@ feeds:
   url: https://medium.com/feed/software-arguments
 - name: Stephen Thorne
   url: https://medium.com/feed/@jerub
+- name: tatusl.dev
+  url: https://tatusl.dev/posts/index.xml
 - name: Topi Kettunen
   url: https://topikettunen.com/posts/index.xml
 - name: zwischenzugs
