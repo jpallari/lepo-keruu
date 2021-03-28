@@ -1,5 +1,5 @@
-# Keruu example
+# k.lepovirta.org
 
-Example use of [keruu](https://gitlab.com/lepovirta/keruu) to collect RSS feeds to [k.lepovirta.org](https://k.lepovirta.org).
+Interesting posts collected from various RSS feeds using [keruu](https://gitlab.com/lepovirta/keruu) to [k.lepovirta.org](https://k.lepovirta.org).
 
-The site is automatically deployed on repository change using [Gitlab CI](.gitlab-ci.yml).
+The site is automatically deployed using [Gitlab CI](.gitlab-ci.yml) on a schedule and when the repository contents are changed.

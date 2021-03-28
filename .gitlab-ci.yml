@@ -1,35 +1,17 @@
 stages:
-- build-site
 - publish
 
 workflow:
   rules:
-  - if: $CI_MERGE_REQUEST_ID
   - if: $CI_COMMIT_BRANCH == "master"
-
-variables:
-  NETLIFY_DIRECTORY: public
-
-build-site:
-  stage: build-site
-  image: registry.gitlab.com/lepovirta/keruu:ci
-  before_script:
-  - mkdir -p $NETLIFY_DIRECTORY
-  script:
-  - keruu -config config.yaml -output $NETLIFY_DIRECTORY/index.html
-  - cp headers.txt $NETLIFY_DIRECTORY/_headers
-  artifacts:
-    paths:
-    - $NETLIFY_DIRECTORY
 
 pages:
   stage: publish
-  image: registry.gitlab.com/lepovirta/netlify-deployer:ci
+  image: registry.gitlab.com/lepovirta/keruu:ci
+  before_script:
+  - mkdir -p public
   script:
-  - gitlab-deploy-site
+  - keruu -config config.yaml -output public/index.html
   artifacts:
     paths:
-    - $NETLIFY_DIRECTORY
-  rules:
-  - if: $CI_COMMIT_BRANCH == "master"
-  - if: $CI_MERGE_REQUEST_ID
+    - public
