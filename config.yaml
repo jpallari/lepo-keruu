@@ -74,6 +74,8 @@ feeds:
   url: http://feeds.feedburner.com/HighScalability
 - name: SRE Weekly
   url: http://sreweekly.com/feed/
+- name: DevOps Weekly
+  url: https://devopsweeklyarchive.com/feed.xml
 
 # Programming
 - name: GopherSRE
