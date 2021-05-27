@@ -10,6 +10,8 @@ feeds:
 # People
 - name: ane
   url: https://ane.github.io/feed.xml
+- name: Ben Hoyt
+  url: https://benhoyt.com/writings/rss.xml
 - name: Brendan Gregg
   url: http://www.brendangregg.com/blog/rss.xml
 - name: Cindy Sridharan
@@ -30,6 +32,8 @@ feeds:
   url: https://dev.to/feed/terkwood
 - name: Henrik Warne
   url: https://henrikwarne.com/feed/
+- name: Hillel Wayne
+  url: https://www.hillelwayne.com/post/index.xml
 - name: Jason Scott
   url: http://ascii.textfiles.com/feed
 - name: Jessie Frazelle
@@ -38,6 +42,8 @@ feeds:
   url: https://www.snellman.net/blog/rss-index.xml
 - name: Julia Evans
   url: https://jvns.ca/atom.xml
+- name: matklad
+  url: https://matklad.github.io/feed.xml
 - name: MS DevOps Dude
   url: https://msdevopsdude.com/atom.xml
 - name: rachelbythebay
