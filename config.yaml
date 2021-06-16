@@ -20,6 +20,8 @@ feeds:
   url: https://www.cloudgardener.dev/rss.xml
 - name: computer.rip
   url: https://computer.rip/rss.xml
+- name: Daemonic Dispatches
+  url: http://www.daemonology.net/blog/index.rss
 - name: Dan Luu
   url: https://danluu.com/atom.xml
 - name: The Digital Antiquarian
