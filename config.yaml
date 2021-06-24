@@ -4,7 +4,11 @@ aggregation:
   maxPosts: 500
 
 fetch:
-  httpTimeout: 10s
+  httpTimeout: 30s
+
+links:
+- name: HN
+  url: https://hn.algolia.com/?q=$TITLE
 
 feeds:
 # People
@@ -16,8 +20,6 @@ feeds:
   url: http://www.brendangregg.com/blog/rss.xml
 - name: Cindy Sridharan
   url: https://medium.com/feed/@copyconstruct
-- name: Cloud Gardener
-  url: https://www.cloudgardener.dev/rss.xml
 - name: computer.rip
   url: https://computer.rip/rss.xml
 - name: Daemonic Dispatches
@@ -82,6 +84,8 @@ feeds:
 # Infrastructure/ops
 - name: High Scalability
   url: http://feeds.feedburner.com/HighScalability
+  exclude:
+  - "^Sponsored Post:"
 - name: SRE Weekly
   url: http://sreweekly.com/feed/
 - name: DevOps Weekly
@@ -99,6 +103,6 @@ feeds:
 
 # For testing purposes
 - name: Polar Squad
-  url: https://medium.com/feed/polarsquad
+  url: https://polarsquad.com/blog?format=rss
 - name: Lepovirta
   url: https://lepovirta.org/posts/index.xml
