@@ -78,6 +78,8 @@ feeds:
   url: https://www.gremlin.com/rss.xml
 - name: Honeycomb
   url: https://www.honeycomb.io/feed/
+- name: Klara Inc.
+  url: https://klarasystems.com/feed/
 - name: Tailscale
   url: https://tailscale.com/blog/index.xml
 
