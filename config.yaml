@@ -2,9 +2,11 @@ aggregation:
   title: Lepo Keruu
   description: Aggregation of interesting posts
   maxPosts: 500
+  grouping: weekly
 
 fetch:
   httpTimeout: 30s
+  propagateErrors: false
 
 links:
 - name: HN
