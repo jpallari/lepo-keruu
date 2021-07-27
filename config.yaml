@@ -30,6 +30,8 @@ feeds:
   url: https://danluu.com/atom.xml
 - name: The Digital Antiquarian
   url: https://www.filfre.net/feed/rss/
+- name: Edward Snowden
+  url: https://edwardsnowden.substack.com/feed
 - name: Evan Jones
   url: https://www.evanjones.ca/index.rss
 - name: Fabien Sanglard
