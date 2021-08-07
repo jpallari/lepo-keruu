@@ -46,6 +46,8 @@ feeds:
   url: http://ascii.textfiles.com/feed
 - name: Jessie Frazelle
   url: https://blog.jessfraz.com/index.xml
+- name: Joonas
+  url: https://joonas.fi/feed.xml
 - name: Juho Snellman
   url: https://www.snellman.net/blog/rss-index.xml
 - name: Julia Evans
