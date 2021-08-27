@@ -62,6 +62,8 @@ feeds:
   url: http://feeds.hanselman.com/scotthanselman
 - name: Scott's Weblog
   url: http://feeds.scottlowe.org/slowe/content/feed
+- name: SecureCloudBlog
+  url: https://securecloud.blog/feed/
 - name: The Sharp End
   url: https://sharpend.io/feed.xml
 - name: Software Arguments
