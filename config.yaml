@@ -74,6 +74,8 @@ feeds:
   url: https://tatusl.dev/posts/index.xml
 - name: Topi Kettunen
   url: https://topikettunen.com/posts/index.xml
+- name: Vincent Bernat
+  url: https://vincent.bernat.ch/en/blog/atom.xml
 - name: zwischenzugs
   url: https://zwischenzugs.com/feed/
 
