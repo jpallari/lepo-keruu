@@ -94,14 +94,18 @@ feeds:
   url: https://tailscale.com/blog/index.xml
 
 # Infrastructure/ops
+- name: DevOps Weekly
+  url: https://devopsweeklyarchive.com/feed.xml
 - name: High Scalability
   url: http://feeds.feedburner.com/HighScalability
   exclude:
   - "^Sponsored Post:"
+- name: Last Week in AWS
+  url: https://www.lastweekinaws.com/feed/
+- name: Postgres Weekly
+  url: https://postgresweekly.com/rss/
 - name: SRE Weekly
   url: http://sreweekly.com/feed/
-- name: DevOps Weekly
-  url: https://devopsweeklyarchive.com/feed.xml
 
 # Programming
 - name: GopherSRE
@@ -113,7 +117,7 @@ feeds:
 - name: Windows CLI
   url: https://devblogs.microsoft.com/commandline/feed/
 
-# For testing purposes
+# For testing purposes mainly
 - name: Polar Squad
   url: https://polarsquad.com/blog?format=rss
 - name: Lepovirta
