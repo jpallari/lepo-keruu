@@ -56,6 +56,8 @@ feeds:
   url: https://matklad.github.io/feed.xml
 - name: MS DevOps Dude
   url: https://msdevopsdude.com/atom.xml
+- name: Pekka Enberg
+  url: http://penberg.org/index.xml
 - name: rachelbythebay
   url: https://rachelbythebay.com/w/atom.xml
 - name: Scott Hanselman
