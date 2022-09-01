@@ -42,6 +42,8 @@ feeds:
   url: https://henrikwarne.com/feed/
 - name: Hillel Wayne
   url: https://www.hillelwayne.com/post/index.xml
+- name: is this it?
+  url: https://isthisit.nz/tags/software-engineering/index.xml
 - name: Jason Scott
   url: http://ascii.textfiles.com/feed
 - name: Jessie Frazelle
