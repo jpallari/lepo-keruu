@@ -15,7 +15,7 @@ links:
 feeds:
 # People
 - name: ane
-  url: https://ane.github.io/feed.xml
+  url: https://ane.iki.fi/feed.xml
 - name: Ben Hoyt
   url: https://benhoyt.com/writings/rss.xml
 - name: Brendan Gregg
