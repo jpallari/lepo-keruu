@@ -86,8 +86,6 @@ feeds:
   url: https://medium.com/feed/fraktal
 - name: Fuzzy Labs
   url: https://medium.com/feed/fuzzylabsai
-- name: Klara Inc.
-  url: https://klarasystems.com/feed/
 
 # Infrastructure/ops
 - name: DevOps Weekly
@@ -106,11 +104,3 @@ feeds:
 # Programming
 - name: GopherSRE
   url: http://www.golangdevops.com/rss/
-- name: Lambda the Ultimate
-  url: http://lambda-the-ultimate.org/rss.xml
-
-# For testing purposes mainly
-- name: Polar Squad
-  url: https://polarsquad.com/blog?format=rss
-- name: Lepovirta
-  url: https://lepovirta.org/posts/index.xml
