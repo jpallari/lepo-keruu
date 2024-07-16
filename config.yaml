@@ -24,12 +24,12 @@ feeds:
   url: https://medium.com/feed/@copyconstruct
 - name: computer.rip
   url: https://computer.rip/rss.xml
-- name: Daemonic Dispatches
-  url: http://www.daemonology.net/blog/index.rss
 - name: Dan Luu
   url: https://danluu.com/atom.xml
 - name: The Digital Antiquarian
   url: https://www.filfre.net/feed/rss/
+- name: Digital Grove
+  url: https://www.rfleury.com/feed
 - name: Edward Snowden
   url: https://edwardsnowden.substack.com/feed
 - name: Evan Jones
@@ -60,6 +60,8 @@ feeds:
   url: https://msdevopsdude.com/atom.xml
 - name: Pekka Enberg
   url: http://penberg.org/index.xml
+- name: The Pragmatic Engineer
+  url: https://feeds.feedburner.com/ThePragmaticEngineer
 - name: Scott Hanselman
   url: http://feeds.hanselman.com/scotthanselman
 - name: Scott's Weblog
