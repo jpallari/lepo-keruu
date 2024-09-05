@@ -20,14 +20,8 @@ feeds:
   url: https://benhoyt.com/writings/rss.xml
 - name: Brendan Gregg
   url: http://www.brendangregg.com/blog/rss.xml
-- name: Cindy Sridharan
-  url: https://medium.com/feed/@copyconstruct
 - name: computer.rip
   url: https://computer.rip/rss.xml
-- name: Dan Luu
-  url: https://danluu.com/atom.xml
-- name: The Digital Antiquarian
-  url: https://www.filfre.net/feed/rss/
 - name: Digital Grove
   url: https://www.rfleury.com/feed
 - name: Edward Snowden
@@ -46,8 +40,6 @@ feeds:
   url: https://isthisit.nz/tags/software-engineering/index.xml
 - name: Jason Scott
   url: http://ascii.textfiles.com/feed
-- name: Jessie Frazelle
-  url: https://blog.jessfraz.com/index.xml
 - name: Joonas
   url: https://joonas.fi/feed.xml
 - name: Juho Snellman
@@ -56,26 +48,18 @@ feeds:
   url: https://jvns.ca/atom.xml
 - name: matklad
   url: https://matklad.github.io/feed.xml
-- name: MS DevOps Dude
-  url: https://msdevopsdude.com/atom.xml
+- name: null program
+  url: https://nullprogram.com/feed/
 - name: Pekka Enberg
   url: http://penberg.org/index.xml
 - name: The Pragmatic Engineer
   url: https://feeds.feedburner.com/ThePragmaticEngineer
-- name: Scott Hanselman
-  url: http://feeds.hanselman.com/scotthanselman
-- name: Scott's Weblog
-  url: http://feeds.scottlowe.org/slowe/content/feed
+- name: Sandor Dargo
+  url: https://www.sandordargo.com/feed.xml
 - name: SecureCloudBlog
   url: https://securecloud.blog/feed/
 - name: The Sharp End
   url: https://sharpend.io/feed.xml
-- name: Software Arguments
-  url: https://medium.com/feed/software-arguments
-- name: Stephen Thorne
-  url: https://medium.com/feed/@jerub
-- name: tatusl.dev
-  url: https://tatusl.dev/posts/index.xml
 - name: Topi Kettunen
   url: https://topikettunen.com/blog/feed.xml
 - name: Vincent Bernat
@@ -83,15 +67,7 @@ feeds:
 - name: zwischenzugs
   url: https://zwischenzugs.com/feed/
 
-# Companies
-- name: Fraktal
-  url: https://medium.com/feed/fraktal
-- name: Fuzzy Labs
-  url: https://medium.com/feed/fuzzylabsai
-
 # Infrastructure/ops
-- name: DevOps Weekly
-  url: https://devopsweeklyarchive.com/feed.xml
 - name: High Scalability
   url: http://feeds.feedburner.com/HighScalability
   exclude:
@@ -100,9 +76,3 @@ feeds:
   url: https://www.lastweekinaws.com/feed/
 - name: Postgres Weekly
   url: https://postgresweekly.com/rss/
-- name: SRE Weekly
-  url: http://sreweekly.com/feed/
-
-# Programming
-- name: GopherSRE
-  url: http://www.golangdevops.com/rss/
