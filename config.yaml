@@ -13,17 +13,20 @@ links:
   url: https://hn.algolia.com/?q=$TITLE
 
 feeds:
-# People
 - name: ane
   url: https://ane.iki.fi/feed.xml
 - name: Ben Hoyt
   url: https://benhoyt.com/writings/rss.xml
 - name: Brendan Gregg
   url: http://www.brendangregg.com/blog/rss.xml
+- name: C++ stories
+  urL: https://www.cppstories.com/index.xml
 - name: computer.rip
   url: https://computer.rip/rss.xml
 - name: Digital Grove
   url: https://www.rfleury.com/feed
+- name: Dmitry Danilov
+  url: https://ddanilov.me/feed.xml
 - name: Edward Snowden
   url: https://edwardsnowden.substack.com/feed
 - name: Evan Jones
@@ -32,8 +35,14 @@ feeds:
   url: https://fabiensanglard.net/rss.xml
 - name: Felix Terkhorn
   url: https://dev.to/feed/terkwood
+- name: Ginger Bill
+  url: https://www.gingerbill.org/article/index.xml
 - name: Henrik Warne
   url: https://henrikwarne.com/feed/
+- name: High Scalability
+  url: http://feeds.feedburner.com/HighScalability
+  exclude:
+  - "^Sponsored Post:"
 - name: Hillel Wayne
   url: https://www.hillelwayne.com/post/index.xml
 - name: is this it?
@@ -46,12 +55,16 @@ feeds:
   url: https://www.snellman.net/blog/rss-index.xml
 - name: Julia Evans
   url: https://jvns.ca/atom.xml
+- name: Last Week in AWS
+  url: https://www.lastweekinaws.com/feed/
 - name: matklad
   url: https://matklad.github.io/feed.xml
 - name: null program
   url: https://nullprogram.com/feed/
 - name: Pekka Enberg
   url: http://penberg.org/index.xml
+- name: Postgres Weekly
+  url: https://postgresweekly.com/rss/
 - name: The Pragmatic Engineer
   url: https://feeds.feedburner.com/ThePragmaticEngineer
 - name: Sandor Dargo
@@ -66,13 +79,3 @@ feeds:
   url: https://vincent.bernat.ch/en/blog/atom.xml
 - name: zwischenzugs
   url: https://zwischenzugs.com/feed/
-
-# Infrastructure/ops
-- name: High Scalability
-  url: http://feeds.feedburner.com/HighScalability
-  exclude:
-  - "^Sponsored Post:"
-- name: Last Week in AWS
-  url: https://www.lastweekinaws.com/feed/
-- name: Postgres Weekly
-  url: https://postgresweekly.com/rss/
