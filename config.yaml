@@ -20,7 +20,7 @@ feeds:
 - name: Brendan Gregg
   url: http://www.brendangregg.com/blog/rss.xml
 - name: C++ stories
-  urL: https://www.cppstories.com/index.xml
+  url: https://www.cppstories.com/index.xml
 - name: computer.rip
   url: https://computer.rip/rss.xml
 - name: Digital Grove
