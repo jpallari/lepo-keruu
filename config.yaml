@@ -17,8 +17,6 @@ feeds:
   url: https://ane.iki.fi/feed.xml
 - name: Ben Hoyt
   url: https://benhoyt.com/writings/rss.xml
-- name: Blog System/5
-  url: https://blogsystem5.substack.com/feed
 - name: Brendan Gregg
   url: http://www.brendangregg.com/blog/rss.xml
 - name: C++ stories
@@ -29,8 +27,6 @@ feeds:
   url: https://www.rfleury.com/feed
 - name: Dmitry Danilov
   url: https://ddanilov.me/feed.xml
-- name: Edward Snowden
-  url: https://edwardsnowden.substack.com/feed
 - name: Evan Jones
   url: https://www.evanjones.ca/index.rss
 - name: Fabien Sanglard
@@ -69,8 +65,6 @@ feeds:
   url: https://postgresweekly.com/rss/
 - name: The Pragmatic Engineer
   url: https://feeds.feedburner.com/ThePragmaticEngineer
-- name: Sandor Dargo
-  url: https://www.sandordargo.com/feed.xml
 - name: SecureCloudBlog
   url: https://securecloud.blog/feed/
 - name: The Sharp End
