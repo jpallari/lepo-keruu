@@ -5,7 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-  schedule: '0 6,16 * * *' # 0 6,16 * * * = every day at 6 and 16
+  schedule:
+    - cron: '0 6,16 * * *' # 0 6,16 * * * = every day at 6 and 16
 
 permissions:
   contents: read
