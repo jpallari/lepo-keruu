@@ -19,8 +19,6 @@ feeds:
   url: https://benhoyt.com/writings/rss.xml
 - name: Brendan Gregg
   url: http://www.brendangregg.com/blog/rss.xml
-- name: C++ stories
-  url: https://www.cppstories.com/index.xml
 - name: computer.rip
   url: https://computer.rip/rss.xml
 - name: Digital Grove
@@ -31,8 +29,6 @@ feeds:
   url: https://www.evanjones.ca/index.rss
 - name: Fabien Sanglard
   url: https://fabiensanglard.net/rss.xml
-- name: Felix Terkhorn
-  url: https://dev.to/feed/terkwood
 - name: Ginger Bill
   url: https://www.gingerbill.org/article/index.xml
 - name: Henrik Warne
@@ -61,8 +57,6 @@ feeds:
   url: https://nullprogram.com/feed/
 - name: Pekka Enberg
   url: http://penberg.org/index.xml
-- name: Postgres Weekly
-  url: https://postgresweekly.com/rss/
 - name: The Pragmatic Engineer
   url: https://feeds.feedburner.com/ThePragmaticEngineer
 - name: SecureCloudBlog
