@@ -57,6 +57,8 @@ feeds:
   url: https://matklad.github.io/feed.xml
 - name: null program
   url: https://nullprogram.com/feed/
+- name: Philippe Gaultier
+  url: https://gaultier.github.io/blog/feed.xml
 - name: The Pragmatic Engineer
   url: https://feeds.feedburner.com/ThePragmaticEngineer
 - name: Vincent Bernat
