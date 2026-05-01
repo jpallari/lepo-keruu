@@ -31,6 +31,8 @@ feeds:
   url: https://www.evanjones.ca/index.rss
 - name: Fabien Sanglard
   url: https://fabiensanglard.net/rss.xml
+- name: Gems of Coding
+  url: https://gemsofcoding.com/feed.xml
 - name: Ginger Bill
   url: https://www.gingerbill.org/article/index.xml
 - name: Henrik Warne
